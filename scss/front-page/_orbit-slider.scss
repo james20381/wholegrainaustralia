@@ -1,0 +1,33 @@
+.fullscreen-image-slider {
+  width: 100%;
+  height: 100vh;
+
+  .orbit-figure {
+  	text-align: center;
+  	font-size: 1.375rem;
+  	color: #d5d5d5;
+
+    .orbit-image {
+        // position: relative;
+        height: 100vh;
+        background-position: 0% 60%;
+        background-repeat: no-repeat;
+        //background-attachment: scroll; // Fallback for ios?
+        // background-position: center center;
+        background-size: cover;
+      }
+
+      .orbit-caption {
+      	padding: .5rem;
+      }
+  }
+
+  .orbit-bullets
+{
+    margin-top: -50px;
+
+    .orbit-bullets button {
+    	background: #d5d5d5;
+    }
+}
+}
